@@ -86,7 +86,7 @@ CORES_PER_JOB = 1
 FALLBACK_MAX_JOBS = 4
 KB_PER_GB = 1024 * 1024
 NVCC_THREAD_COUNT = "4"
-COMPUTE_CAPABILITY = "arch=compute_90a,code=sm_90a"
+COMPUTE_CAPABILITY = "arch=compute_120,code=sm_120"
 
 
 def linux_total_ram_kb() -> int:
