@@ -21,7 +21,7 @@ dependencies = [
 
 
 [build-system]
-requires = ["setuptools>=61", "torch==2.11.0", "numpy", "ninja", "pydantic", "pearl-gemm-build-utils"]
+requires = ["setuptools>=84.1.0", "torch==2.11.0", "numpy", "ninja", "pydantic", "pearl-gemm-build-utils"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
